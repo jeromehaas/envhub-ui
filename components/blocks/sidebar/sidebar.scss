@@ -1,0 +1,31 @@
+@import '#/app/styles/configs/variables.scss';
+
+.sidebar {
+	background-color: $dark-80;
+	padding: 32px;
+
+	&__logo {
+		margin-bottom: 32px;
+	}
+
+	&__projects-list, .projects-list {
+
+		&__link, .link {
+			display: block;
+			color: $dark-40;
+			width: 100%;
+			text-align: left;
+			padding: 16px;
+			border-radius: 4px;
+			border: 1px solid transparent;
+
+			&--active {
+				border: 1px solid white;
+				color: white;
+			}
+
+		}
+
+	}
+
+}

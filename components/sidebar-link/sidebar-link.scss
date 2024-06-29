@@ -1,0 +1,14 @@
+@import '#/app/styles/configs/variables.scss';
+
+.sidebar-link {
+	display: block;
+	padding: 16px;
+	color: $dark-20;
+	width: 100%;
+	text-align: left;
+
+	&--active {
+		border: 1px solid $dark-20;
+	}
+
+}

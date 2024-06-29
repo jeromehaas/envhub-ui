@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Secret" ALTER COLUMN "environment" DROP DEFAULT,
+ALTER COLUMN "layer" DROP DEFAULT;

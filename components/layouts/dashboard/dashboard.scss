@@ -1,0 +1,21 @@
+@import '#/app/styles/configs/variables.scss';
+
+.dashboard {
+	position: relative;
+	display: grid;
+	grid-template-areas: 
+    "sidebar content";
+	grid-template-columns: 320px auto;
+	grid-template-rows: auto; 
+	background-color: $dark-100;
+
+	&__header {
+		grid-area: header;
+	}
+
+	&__sidebar {
+		grid-area: sidebar;
+		min-height: 100vh
+	}
+
+}

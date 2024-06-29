@@ -1,0 +1,12 @@
+@import '#/app/styles/configs/variables.scss';
+
+.header {
+	padding: 32px;
+	background-color: $dark-80;
+	border-bottom: 0.5px solid $dark-20;
+
+	&__logo {
+		height: 32px;
+	}
+
+}
